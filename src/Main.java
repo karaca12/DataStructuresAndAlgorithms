@@ -1,5 +1,6 @@
 import algorithms.BigONotation;
 import algorithms.BinarySearch;
+import algorithms.InterpolationSearch;
 import algorithms.LinearSearch;
 import datatypes.*;
 
@@ -23,5 +24,8 @@ public class Main {
 //        System.out.println(BigONotation.addUpWithPartialSums(100000));//O(1) constant time, n = 100000, 3 steps
 //        LinearSearch.linearSearchExample();
 //        BinarySearch.binarySearchExample();
+//        InterpolationSearch.interpolationSearchExample();
+
+
     }
 }

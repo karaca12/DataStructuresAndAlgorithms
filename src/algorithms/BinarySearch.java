@@ -9,7 +9,7 @@ public class BinarySearch {
 
         //binary search = Search algorithm that finds the position of a target value within a sorted array
         //Half of the array is eliminated during each "step"
-        //runtime complexity: O(log n)
+        //runtime complexity: O(log(n))
 
         int[] array = new int[1000000];
         int target = 777777;
@@ -39,6 +39,8 @@ public class BinarySearch {
         while (low <= high) {
             int middle = low + (high - low) / 2;
             int value = array[middle];
+
+            System.out.println("Middle of this step is: " + value);
 
             if (value < target) {
                 low = middle + 1;
