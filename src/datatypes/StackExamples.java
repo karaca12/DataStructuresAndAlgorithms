@@ -5,17 +5,18 @@ import java.util.Stack;
 public class StackExamples {
 
     public static void examplesOfStack() {
-        //STACK=LIFO (last in first out)
-        //stores objects into a sort of "vertical tower"
-        //push() to add to the top
-        //pop() to remove from the top
-        //Stack is a member of Collection
-
-        //Uses of stacks?
-        //1. undo/redo features in text editors
-        //2. moving back/forward through browser history
-        //3. backtracking algorithms(maze, file directories)
-        //4. calling functions
+        /*
+        STACK=LIFO (last in first out)
+        stores objects into a sort of "vertical tower"
+        push() to add to the top
+        pop() to remove from the top
+        Stack is a member of Collection
+        Uses of stacks?
+        1. undo/redo features in text editors
+        2. moving back/forward through browser history
+        3. backtracking algorithms(maze, file directories)
+        4. calling functions
+        */
 
         Stack<String> stack = new Stack<>();
 

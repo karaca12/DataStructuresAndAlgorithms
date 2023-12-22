@@ -7,13 +7,14 @@ import java.util.Queue;
 public class PriorityQueueExamples {
 
     public static void examplesOfPriorityQueue() {
-        //PriorityQueue = FIFO(first in first out)
-        //serves elements with the highest priorities first before elements with lower priority
-        //Linear data structure
-        //add = enqueue, offer()
-        //remove = dequeue, poll()
-        //PriorityQueue is a member of Collection
-
+        /*
+        PriorityQueue = FIFO(first in first out)
+        serves elements with the highest priorities first before elements with lower priority
+        Linear data structure
+        add = enqueue, offer()
+        remove = dequeue, poll()
+        PriorityQueue is a member of Collection
+        */
 
         //Strings in default order
         Queue<String> queue = new PriorityQueue<>();
