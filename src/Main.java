@@ -12,6 +12,7 @@ public class Main {
 //        QueueExamples.examplesOfQueue();
 //        PriorityQueueExamples.examplesOfPriorityQueue();
 //        LinkedListExamples.examplesOfLinkedList();
-        DynamicArrayExamples.examplesOfDynamicArray();
+//        DynamicArrayExamples.examplesOfDynamicArray();
+        LinkedListVSArrayListExamples.examplesOfLinkedListVSArrayList();
     }
 }
