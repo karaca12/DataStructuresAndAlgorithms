@@ -1,3 +1,4 @@
+import datatypes.LinkedListExamples;
 import datatypes.PriorityQueueExamples;
 import datatypes.QueueExamples;
 import datatypes.StackExamples;
@@ -13,5 +14,6 @@ public class Main {
 //        StackExamples.examplesOfStack();
 //        QueueExamples.examplesOfQueue();
 //        PriorityQueueExamples.examplesOfPriorityQueue();
+//        LinkedListExamples.examplesOfLinkedList();
     }
 }
