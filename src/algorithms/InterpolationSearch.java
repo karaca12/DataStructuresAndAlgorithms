@@ -3,12 +3,12 @@ package algorithms;
 public class InterpolationSearch {
 
     public static void interpolationSearchExample() {
-        //Interpolation search = Improvement over binary search best used for "uniformly" distributed data
-        //"guesses" where a value might be based on calculated probe results
-        //If probe is incorrect, search area is narrowed, and a new probe is calculated
+        /*Interpolation search = Improvement over binary search best used for "uniformly" distributed data
+        "guesses" where a value might be based on calculated probe results
+        If probe is incorrect, search area is narrowed, and a new probe is calculated
 
-        //Average case runtime complexity: O(log(log(n))
-        //Worst case runtime complexity: O(n) [values increase exponentially]
+        Average case runtime complexity: O(log(log(n))
+        Worst case runtime complexity: O(n) [values increase exponentially]*/
 
         int[] array = {1,2,4,8,16,32,64,128,256,512,1024,2048,4096};
         int target = 1024;

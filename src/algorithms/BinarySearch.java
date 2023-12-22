@@ -7,9 +7,9 @@ import java.util.List;
 public class BinarySearch {
     public static void binarySearchExample() {
 
-        //binary search = Search algorithm that finds the position of a target value within a sorted array
-        //Half of the array is eliminated during each "step"
-        //runtime complexity: O(log(n))
+        /*binary search = Search algorithm that finds the position of a target value within a sorted array
+        Half of the array is eliminated during each "step"
+        runtime complexity: O(log(n))*/
 
         int[] array = new int[1000000];
         int target = 777777;

@@ -1,7 +1,4 @@
-import algorithms.BigONotation;
-import algorithms.BinarySearch;
-import algorithms.InterpolationSearch;
-import algorithms.LinearSearch;
+import algorithms.*;
 import datatypes.*;
 
 import java.util.Stack;
@@ -25,7 +22,7 @@ public class Main {
 //        LinearSearch.linearSearchExample();
 //        BinarySearch.binarySearchExample();
 //        InterpolationSearch.interpolationSearchExample();
-
+        BubbleSort.bubbleSortExample();
 
     }
 }
