@@ -25,7 +25,7 @@ public class Main {
 //        BubbleSort.bubbleSortExample();
 //        SelectionSort.selectionSortExample();
 //        InsertionSort.insertionSortExample();
-
-
+//        Recursion.recursionExample();
+//        MergeSort.mergeSortExample();
     }
 }
