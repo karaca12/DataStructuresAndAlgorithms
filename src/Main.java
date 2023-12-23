@@ -22,7 +22,10 @@ public class Main {
 //        LinearSearch.linearSearchExample();
 //        BinarySearch.binarySearchExample();
 //        InterpolationSearch.interpolationSearchExample();
-        BubbleSort.bubbleSortExample();
+//        BubbleSort.bubbleSortExample();
+//        SelectionSort.selectionSortExample();
+//        InsertionSort.insertionSortExample();
+
 
     }
 }

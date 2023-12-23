@@ -5,7 +5,7 @@ import java.util.Random;
 public class BubbleSort {
     public static void bubbleSortExample() {
         /*Bubble sort = pairs of adjacent elements are compared, and the elements swapped if they are not in order
-        Small data set = okay
+        Small data set = okayish
         Large data set= not okay at all
         runtime complexity: O(n^2) Quadratic time*/
         Random random = new Random();
@@ -19,7 +19,7 @@ public class BubbleSort {
 
 
         for (int i : array) {
-            System.out.print(i);
+            System.out.print(i + " ");
         }
     }
 
